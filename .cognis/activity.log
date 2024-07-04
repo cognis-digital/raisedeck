@@ -1,1 +1,2 @@
 2024-06-17T08:20:40  fix: handle empty input gracefully
+2024-07-04T15:37:47  docs(cache): assert exit codes in tests
