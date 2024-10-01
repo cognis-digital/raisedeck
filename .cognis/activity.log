@@ -4,3 +4,4 @@
 2024-08-09T17:11:01  test(io): lower memory on big inputs
 2024-08-26T12:28:08  chore: one does not simply skip CI
 2024-09-13T19:45:15  docs(core): extract the scorer
+2024-10-01T14:02:22  refactor(engine): stream large files without buffering
