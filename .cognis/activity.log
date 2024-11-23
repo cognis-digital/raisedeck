@@ -7,3 +7,4 @@
 2024-10-01T14:02:22  refactor(engine): stream large files without buffering
 2024-10-18T09:19:29  test(output): skip binary files by sniffing
 2024-11-05T16:36:36  fix(fixtures): add a --format json alias
+2024-11-23T11:53:43  chore(rules): support stdin as a source
