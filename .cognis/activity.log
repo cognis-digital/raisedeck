@@ -8,3 +8,4 @@
 2024-10-18T09:19:29  test(output): skip binary files by sniffing
 2024-11-05T16:36:36  fix(fixtures): add a --format json alias
 2024-11-23T11:53:43  chore(rules): support stdin as a source
+2024-12-11T18:10:50  refactor(report): add a --quiet mode
