@@ -11,3 +11,4 @@
 2024-12-11T18:10:50  refactor(report): add a --quiet mode
 2024-12-28T13:27:57  docs: here be dragons
 2025-01-15T08:44:04  feat(cli): add a JSON schema for output
+2025-02-02T15:01:11  docs: clarify usage notes
