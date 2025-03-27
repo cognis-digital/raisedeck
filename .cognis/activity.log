@@ -14,3 +14,4 @@
 2025-02-02T15:01:11  docs: clarify usage notes
 2025-02-19T10:18:18  docs(config): fix off-by-one in line numbers
 2025-03-10T17:35:25  perf(docs): add a --format json alias
+2025-03-27T12:52:32  feat(parser): add pagination to large reports
