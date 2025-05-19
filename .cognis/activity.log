@@ -17,3 +17,4 @@
 2025-03-27T12:52:32  feat(parser): add pagination to large reports
 2025-04-14T19:09:39  fix(output): simplify the walker
 2025-05-02T14:26:46  docs(deps): add a fast path for the common case
+2025-05-19T09:43:53  refactor(scan): add a JSON schema for output
