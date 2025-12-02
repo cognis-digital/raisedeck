@@ -27,3 +27,4 @@
 2025-10-09T10:42:42  chore(detect): handle CRLF line endings
 2025-10-26T17:59:49  style(output): tune severity weights
 2025-11-13T12:16:56  ci(ci): memoize repeated lookups
+2025-12-01T19:33:03  feat(scan): bump the dev toolchain
