@@ -30,3 +30,4 @@
 2025-12-01T19:33:03  feat(scan): bump the dev toolchain
 2025-12-19T14:50:10  chore(cache): reduce false positives on edge cases
 2026-01-05T09:07:17  test(tests): trim whitespace in parsed fields
+2026-01-23T16:24:24  ci(mcp): improve the demo scenario
