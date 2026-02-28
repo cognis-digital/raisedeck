@@ -32,3 +32,4 @@
 2026-01-05T09:07:17  test(tests): trim whitespace in parsed fields
 2026-01-23T16:24:24  ci(mcp): improve the demo scenario
 2026-02-10T11:41:31  chore: in case of fire — commit, push, leave building
+2026-02-28T18:58:38  fix(core): tune severity weights
