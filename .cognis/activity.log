@@ -35,3 +35,4 @@
 2026-02-28T18:58:38  fix(core): tune severity weights
 2026-03-18T13:15:45  chore: bump dev tooling
 2026-04-04T08:32:52  ci(detect): add color + severity icons
+2026-04-22T15:49:59  build(fixtures): add usage examples to help
