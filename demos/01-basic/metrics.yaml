@@ -1,0 +1,35 @@
+# RAISEDECK metrics — a small SaaS startup, three months of data.
+company: Acme Analytics Inc
+currency: USD
+cash: 410000          # cash in the bank as of the latest month
+
+months:
+  - month: 2025-12
+    mrr: 38000
+    customers: 110
+    expenses: 92000
+    new_customers: 12
+    churned_customers: 4
+    highlights:
+      - Shipped self-serve onboarding
+      - Hired first AE
+
+  - month: 2026-01
+    mrr: 42000
+    customers: 120
+    expenses: 95000
+    new_customers: 14
+    churned_customers: 4
+    highlights:
+      - Closed Globex pilot
+      - Launched usage-based pricing
+
+  - month: 2026-02
+    mrr: 47500
+    customers: 131
+    expenses: 98000
+    new_customers: 15
+    churned_customers: 4
+    highlights:
+      - SOC 2 Type II completed
+      - Two enterprise logos in late-stage
