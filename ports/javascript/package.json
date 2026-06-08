@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/raisedeck",
+  "version": "0.2.0",
+  "description": "JavaScript port of raisedeck (Cognis Neural Suite)",
+  "bin": {
+    "raisedeck": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
