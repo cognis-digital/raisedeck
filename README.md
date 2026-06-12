@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-raisedeck
+pip install "git+https://github.com/cognis-digital/raisedeck.git"
 raisedeck scan .            # → prioritized findings in seconds
 ```
 
@@ -50,7 +50,7 @@ Investor relations as a reproducible monthly artifact — KPIs are computed from
 ## Quick start
 
 ```bash
-pip install cognis-raisedeck
+pip install "git+https://github.com/cognis-digital/raisedeck.git"
 raisedeck --version
 raisedeck scan .                       # scan current project
 raisedeck scan . --format json         # machine-readable
