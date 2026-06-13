@@ -1,4 +1,4 @@
-<a name="top"></a>
+﻿<a name="top"></a>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6b46c1,100:2b6cb0&height=120&section=header&text=RAISEDECK&fontSize=48&fontColor=ffffff&fontAlignY=58" width="100%" alt="RAISEDECK"/>
@@ -19,6 +19,12 @@
 pip install "git+https://github.com/cognis-digital/raisedeck.git"
 raisedeck scan .            # → prioritized findings in seconds
 ```
+
+<!-- cognis:layman:start -->
+## What is this?
+
+Raisedeck turns a simple spreadsheet-style text file into a clean monthly investor update — showing your revenue, expenses, customer count, and how many months of cash you have left. Instead of copying numbers by hand into a slide deck, you keep one YAML file up to date and run one command to get a formatted summary. It catches warning signs automatically, like low runway or shrinking revenue, and flags them so nothing slips through. It is aimed at startup founders and finance teams who want investor-ready metrics that are always consistent and version-controlled.
+<!-- cognis:layman:end -->
 
 ## Contents
 
@@ -47,6 +53,42 @@ Investor relations as a reproducible monthly artifact — KPIs are computed from
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:install:start -->
+## Install
+
+`raisedeck` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/raisedeck/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/raisedeck/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/raisedeck.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/raisedeck.git"  # uv
+pip install "git+https://github.com/cognis-digital/raisedeck.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/raisedeck.git
+cd raisedeck && pip install .
+```
+
+Then run:
+```sh
+raisedeck --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
