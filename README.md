@@ -20,6 +20,40 @@ pip install cognis-raisedeck
 raisedeck scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+1. **Install** (Python 3.9+):
+
+   ```bash
+   pip install raisedeck            # or: pipx install raisedeck
+   ```
+
+2. **Render an investor update** from a metrics YAML file:
+
+   ```bash
+   raisedeck render metrics.yaml
+   ```
+
+3. **Report a specific month.** By default the latest month is used; pin it with `--period`:
+
+   ```bash
+   raisedeck render metrics.yaml --period 2026-02
+   ```
+
+4. **Get machine-readable output** for further processing or templating:
+
+   ```bash
+   raisedeck render metrics.yaml --format json > update.json
+   ```
+
+5. **Read the result.** The default output is a formatted investor update (growth, runway, and KPI deltas vs. the prior period); JSON mode emits the same figures as structured data.
+
+6. **Wire it into a workflow.** Regenerate the monthly update from the canonical metrics file:
+
+   ```bash
+   raisedeck render metrics.yaml --period 2026-02 > updates/2026-02.txt
+   ```
+
 ## Contents
 
 - [Why raisedeck?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
